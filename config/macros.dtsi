@@ -1,8 +1,44 @@
+macro_aa_cap: macro_aa_cap{
+compatible = "zmk,behavior-macro";
+label = "macro_aa_cap";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_4>, <&kp KP_NUMBER_3>, <&kt LALT>;
+};
+macro_oe_cap: macro_oe_cap{
+compatible = "zmk,behavior-macro";
+label = "macro_oe_cap";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_5>, <&kp KP_NUMBER_7>, <&kt LALT>;
+};
+macro_ae_cap: macro_ae_cap{
+compatible = "zmk,behavior-macro";
+label = "macro_ae_cap";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_4>, <&kp KP_NUMBER_6>, <&kt LALT>;
+};
+macro_aa: macro_aa{
+compatible = "zmk,behavior-macro";
+label = "macro_aa";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_3>, <&kp KP_NUMBER_4>, <&kt LALT>;
+};
+macro_oe: macro_oe{
+compatible = "zmk,behavior-macro";
+label = "macro_oe";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_1>, <&kp KP_NUMBER_5>, <&kp KP_NUMBER_5>, <&kt LALT>;
+};
+macro_ae: macro_ae{
+compatible = "zmk,behavior-macro";
+label = "macro_ae";
+#binding-cells = <0>;
+bindings = <&kt LALT>, <&kp KP_NUMBER_1>, <&kp KP_N4>, <&kp KP_N5>, <&kt LALT>;
+};
 macro_mail: macro_mail{
 compatible = "zmk,behavior-macro";
 label = "macro_mail";
 #binding-cells = <0>;
-bindings = <&kp H>, <&kp A>, <&kp A>, <&kp K>, <&kp O>, <&kp N>, <&kp AT>, <&kp O>, <&kp S>, <&kp I>, <&kp R>, <&kp I>, <&kp O>, <&kp N>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>;
+bindings = <&kp H>, <&kp A>, <&kp A>, <&kp K>, <&kp O>, <&kp N>, <&kp AT>, <&kp O>, <&kp S>, <&kp I>, <&kp R>, <&kp I>, <&kp O>, <&kp N>, <&kp DOT>, <&kp G>, <&kp G>;
 };
 macro_nvim: macro_nvim{
 compatible = "zmk,behavior-macro";
